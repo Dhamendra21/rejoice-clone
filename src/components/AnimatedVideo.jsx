@@ -1,7 +1,8 @@
 import { useGSAP } from "@gsap/react";
 import React, { useRef } from "react";
 import gsap, { Power4 } from "gsap";
-import ScrollTrigger from "gsap/scrollTrigger";
+import { ScrollTrigger } from "gsap/all"; 
+
 function AnimatedVideo() {
   let parent = useRef(null);
   let video = useRef(null);
